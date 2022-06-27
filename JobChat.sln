@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobChat", "JobChat\JobChat.csproj", "{8F890080-8142-4B19-8099-2AA9882A1DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobChat", "JobChat\JobChat.csproj", "{8F890080-8142-4B19-8099-2AA9882A1DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobChat.Infra", "JobChat.Infra\JobChat.Infra.csproj", "{C038211C-AA0B-4405-86D3-BC9DCBF31491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobChat.Domain", "JobChat.Domain\JobChat.Domain.csproj", "{4ACAA60A-94CF-4999-9E44-956196ED134D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{8F890080-8142-4B19-8099-2AA9882A1DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F890080-8142-4B19-8099-2AA9882A1DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F890080-8142-4B19-8099-2AA9882A1DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C038211C-AA0B-4405-86D3-BC9DCBF31491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C038211C-AA0B-4405-86D3-BC9DCBF31491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C038211C-AA0B-4405-86D3-BC9DCBF31491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C038211C-AA0B-4405-86D3-BC9DCBF31491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ACAA60A-94CF-4999-9E44-956196ED134D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACAA60A-94CF-4999-9E44-956196ED134D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACAA60A-94CF-4999-9E44-956196ED134D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACAA60A-94CF-4999-9E44-956196ED134D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
